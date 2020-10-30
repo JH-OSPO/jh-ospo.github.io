@@ -1,4 +1,4 @@
 # GitHub Documentation
 
-* [General GitHub Documentation](dgeneral/)
+* [General GitHub Documentation](general/)
 * JHU Enterprise GitHub Account Information (coming soon!)
