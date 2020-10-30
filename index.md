@@ -2,4 +2,4 @@
 title: "Open Source Programs Office"
 ---
 
-[GitHub Documentation]({% link /github/index.md %})
+[GitHub Documentation]({% link github/index.md %})
