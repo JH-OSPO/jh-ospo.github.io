@@ -1,6 +1,6 @@
 ---
-title: JHU GitHub Enterprise Account
+title: "JHU GitHub Enterprise Account"
 ---
 
-[Creating an GitHub Enterprise Organization]({% github/enterpise/create_ent_org.md %})
+[Creating an Enterprise Organization]({% link github/enterprise/create_ent_org.md %})
 
