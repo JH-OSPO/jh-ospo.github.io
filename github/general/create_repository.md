@@ -13,6 +13,6 @@ description: "This document is for general reference as well as the JHU Enterpri
    - Public repositories are visible to the world, it allows strangers to see your source code, fork it and submit Pull Requests to add functionality or fix bugs. Open source projects are usually Public git repositories
    - Private repositories are not visible to anyone unless you explicitly give access to them.
 
-If you want to initialize the repository with a README, ignore file or license, check the appropriate boxes and click the green “Create repository” button
+6. If you want to initialize the repository with a README, ignore file or license, check the appropriate boxes and click the green “Create repository” button
 
 Congratulations, you have created a repository!
