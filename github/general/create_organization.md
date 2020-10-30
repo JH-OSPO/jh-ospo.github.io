@@ -4,8 +4,6 @@ title: "Creating a GitHub Organization"
 description: "How to create a GitHub organization"
 ---
 
-# Creating a GitHub Organization
-
 This document is not for Enterprise Accounts at JHU.
 
 ## Steps
