@@ -1,3 +1,4 @@
+/* #0066CC */
 html {
     /* csslint ignore:start */
     /* The nav header is 3.5rem high, plus 20px for the margin-top of the
@@ -24,6 +25,10 @@ body::before {
 body > .container {
     margin-top: 20px;
     min-height: 400px;
+}
+
+.bg-primary {
+    background-color: #0066CC);
 }
 
 .navbar.fixed-top { /* csslint allow: adjoining-classes */
@@ -310,4 +315,9 @@ h1:hover .headerlink, h2:hover .headerlink, h3:hover .headerlink, h4:hover .head
         left: -100%;
         margin-left: 10px;
     }
+}
+
+@media print {
+    /* Remove sidebar when print */
+    .col-md-3 { display: none; }
 }
