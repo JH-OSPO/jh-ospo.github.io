@@ -7,25 +7,24 @@
         
         
         
-        <link rel="shortcut icon" href="../img/favicon.ico">
-        <title>Documentation - JHU Open Source Programs Office</title>
-        <link href="../css/bootstrap.min.css" rel="stylesheet">
-        <link href="../css/font-awesome.min.css" rel="stylesheet">
-        <link href="../css/base.css" rel="stylesheet">
+        <link rel="shortcut icon" href="../../../../img/favicon.ico">
+        <title>Add Organization Members - JHU Open Source Programs Office</title>
+        <link href="../../../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../../../css/base.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
-        <link href="../extra.css" rel="stylesheet">
+        <link href="../../../../extra.css" rel="stylesheet">
 
-        <script src="../js/jquery-1.10.2.min.js" defer></script>
-        <script src="../js/bootstrap.min.js" defer></script>
+        <script src="../../../../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../../../../js/bootstrap.min.js" defer></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
         <script>hljs.initHighlightingOnLoad();</script> 
     </head>
 
     <body>
-      <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
-        <div class="container">
-	      	<img class="logo" src="/img/university.shield.small.white.png"/>
-                <a class="navbar-brand" href="..">JHU Open Source Programs Office</a>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="../../../..">JHU Open Source Programs Office</a>
                 <!-- Expander button -->
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
                     <span class="navbar-toggler-icon"></span>
@@ -36,10 +35,50 @@
                         <!-- Main navigation -->
                         <ul class="nav navbar-nav">
                             <li class="navitem">
-                                <a href=".." class="nav-link">Home</a>
+                                <a href="../../../.." class="nav-link">Home</a>
                             </li>
-                            <li class="navitem active">
-                                <a href="./" class="nav-link">Documentation</a>
+                            <li class="dropdown active">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Documentation <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">GitHub</a>
+    <ul class="dropdown-menu">
+            
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Enterprise GitHub</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../Enterprise_GitHub/create_ent_org/" class="dropdown-item">Create Enterprise Organization</a>
+</li>
+    </ul>
+  </li>
+            
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">General GitHub</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="./" class="dropdown-item active">Add Organization Members</a>
+</li>
+            
+<li>
+    <a href="../add_repo_members/" class="dropdown-item">Add Repository Members</a>
+</li>
+            
+<li>
+    <a href="../create_account/" class="dropdown-item">Create GitHub Account</a>
+</li>
+            
+<li>
+    <a href="../create_repository/" class="dropdown-item">Create a Respository</a>
+</li>
+    </ul>
+  </li>
+    </ul>
+  </li>
+                                </ul>
                             </li>
                         </ul>
 
@@ -49,6 +88,7 @@
                                 <i class="fa fa-search"></i> Search
                             </a>
                         </li>
+
                     </ul>
                 </div>
             </div>
@@ -67,8 +107,12 @@
     <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
         <ul class="nav flex-column">
             
-            <li class="nav-item" data-level="1"><a href="#documentation" class="nav-link">Documentation</a>
+            <li class="nav-item" data-level="1"><a href="#add-organization-members" class="nav-link">Add Organization Members</a>
               <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#steps" class="nav-link">Steps</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
               </ul>
             </li>
         </ul>
@@ -76,19 +120,32 @@
 </div></div>
                     <div class="col-md-9" role="main">
 
-<h1 id="documentation">Documentation</h1></div>
+<h1 id="add-organization-members">Add Organization Members</h1>
+<p>your department, company or group has team members, you might want to add them to your GitHub Organization</p>
+<h2 id="steps">Steps</h2>
+<ol>
+<li>Log into www.github.com with your account</li>
+<li>Click the down arrow near your username near the top-left of your browser window and select your organization</li>
+<li>Click the “View organization” button</li>
+<li>Once in your organization, click the “People” tab along the top of your window</li>
+<li>Click the green “Invite member” button near the top right of the People view</li>
+<li>You can search by full name, GitHub username or email address. Once you find the account you and to invite, click the “+” next to their name. Then click the green “Invite” button.</li>
+<li>Give the new member a role in your organization. You have the option of giving them “Owner” and “Member” roles. Click “Send invitation” after making your choice.</li>
+</ol>
+<p>GitHub will send an email to the invited account with a link or button to accept the invitation. Once they accept, they are officially part of your organization!</p></div>
             </div>
         </div>
 
         <footer class="col-md-12">
             <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
         </footer>
         <script>
-            var base_url = "..",
+            var base_url = "../../../..",
                 shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
         </script>
-        <script src="../js/base.js" defer></script>
-        <script src="../search/main.js" defer></script>
+        <script src="../../../../js/base.js" defer></script>
+        <script src="../../../../search/main.js" defer></script>
 
         <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg">

@@ -7,25 +7,24 @@
         
         
         
-        <link rel="shortcut icon" href="../img/favicon.ico">
-        <title>Documentation - JHU Open Source Programs Office</title>
-        <link href="../css/bootstrap.min.css" rel="stylesheet">
-        <link href="../css/font-awesome.min.css" rel="stylesheet">
-        <link href="../css/base.css" rel="stylesheet">
+        <link rel="shortcut icon" href="../../../../img/favicon.ico">
+        <title>Add Repository Members - JHU Open Source Programs Office</title>
+        <link href="../../../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../../../css/base.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
-        <link href="../extra.css" rel="stylesheet">
+        <link href="../../../../extra.css" rel="stylesheet">
 
-        <script src="../js/jquery-1.10.2.min.js" defer></script>
-        <script src="../js/bootstrap.min.js" defer></script>
+        <script src="../../../../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../../../../js/bootstrap.min.js" defer></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
         <script>hljs.initHighlightingOnLoad();</script> 
     </head>
 
     <body>
-      <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
-        <div class="container">
-	      	<img class="logo" src="/img/university.shield.small.white.png"/>
-                <a class="navbar-brand" href="..">JHU Open Source Programs Office</a>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="../../../..">JHU Open Source Programs Office</a>
                 <!-- Expander button -->
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
                     <span class="navbar-toggler-icon"></span>
@@ -36,10 +35,50 @@
                         <!-- Main navigation -->
                         <ul class="nav navbar-nav">
                             <li class="navitem">
-                                <a href=".." class="nav-link">Home</a>
+                                <a href="../../../.." class="nav-link">Home</a>
                             </li>
-                            <li class="navitem">
-                                <a href="../documentation/" class="nav-link">Documentation</a>
+                            <li class="dropdown active">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Documentation <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">GitHub</a>
+    <ul class="dropdown-menu">
+            
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Enterprise GitHub</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../Enterprise_GitHub/create_ent_org/" class="dropdown-item">Create Enterprise Organization</a>
+</li>
+    </ul>
+  </li>
+            
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">General GitHub</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../add_org_members/" class="dropdown-item">Add Organization Members</a>
+</li>
+            
+<li>
+    <a href="./" class="dropdown-item active">Add Repository Members</a>
+</li>
+            
+<li>
+    <a href="../create_account/" class="dropdown-item">Create GitHub Account</a>
+</li>
+            
+<li>
+    <a href="../create_repository/" class="dropdown-item">Create a Respository</a>
+</li>
+    </ul>
+  </li>
+    </ul>
+  </li>
+                                </ul>
                             </li>
                         </ul>
 
@@ -49,6 +88,7 @@
                                 <i class="fa fa-search"></i> Search
                             </a>
                         </li>
+
                     </ul>
                 </div>
             </div>
@@ -67,8 +107,12 @@
     <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
         <ul class="nav flex-column">
             
-            <li class="nav-item" data-level="1"><a href="#documentation" class="nav-link">Documentation</a>
+            <li class="nav-item" data-level="1"><a href="#add-repository-members" class="nav-link">Add Repository Members</a>
               <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#steps" class="nav-link">Steps</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
               </ul>
             </li>
         </ul>
@@ -76,19 +120,35 @@
 </div></div>
                     <div class="col-md-9" role="main">
 
-<h1 id="documentation">Documentation</h1></div>
+<h1 id="add-repository-members">Add Repository Members</h1>
+<p>Give team members access to your project source code by following the steps below.</p>
+<p><em>Note</em>: You need administrative access to the repository to perform these steps.</p>
+<h2 id="steps">Steps</h2>
+<ol>
+<li>Log in to www.github.com with your account</li>
+<li>Click the down arrow next to your username near the top-left of your browser and select your organization</li>
+<li>Click the “View organization” button</li>
+<li>Find your repository under the “Repositories” tab near located near the top of your screen and click on the repository name.</li>
+<li>Once in the repository view, click the “Settings” tab.</li>
+<li>Click on “Manage access” in the menu on the left of the settings view</li>
+<li>This view describes how your repository is setup to be viewed. Towards the bottom, you will see a list of members and teams who have access already. Click the green “Invite teams or people” button.</li>
+<li>Type the account name, full name or email address of the person you want to invite and click on their account in the drop down.</li>
+<li>Choose the appropriate role for the person and click the green “Add <username> to this repository” button</li>
+</ol>
+<p>GitHub will send an invite to the account and they will now have access to your repository!</p></div>
             </div>
         </div>
 
         <footer class="col-md-12">
             <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
         </footer>
         <script>
-            var base_url = "..",
+            var base_url = "../../../..",
                 shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
         </script>
-        <script src="../js/base.js" defer></script>
-        <script src="../search/main.js" defer></script>
+        <script src="../../../../js/base.js" defer></script>
+        <script src="../../../../search/main.js" defer></script>
 
         <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg">

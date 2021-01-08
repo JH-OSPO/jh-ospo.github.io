@@ -22,9 +22,8 @@
     </head>
 
     <body>
-      <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
-        <div class="container">
-	      	<img class="logo" src="/img/university.shield.small.white.png"/>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
                 <a class="navbar-brand" href="/.">JHU Open Source Programs Office</a>
                 <!-- Expander button -->
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
@@ -38,8 +37,48 @@
                             <li class="navitem">
                                 <a href="/." class="nav-link">Home</a>
                             </li>
-                            <li class="navitem">
-                                <a href="/documentation/" class="nav-link">Documentation</a>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Documentation <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">GitHub</a>
+    <ul class="dropdown-menu">
+            
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Enterprise GitHub</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="/documentation/GitHub/Enterprise_GitHub/create_ent_org/" class="dropdown-item">Create Enterprise Organization</a>
+</li>
+    </ul>
+  </li>
+            
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">General GitHub</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="/documentation/GitHub/General_GitHub/add_org_members/" class="dropdown-item">Add Organization Members</a>
+</li>
+            
+<li>
+    <a href="/documentation/GitHub/General_GitHub/add_repo_members/" class="dropdown-item">Add Repository Members</a>
+</li>
+            
+<li>
+    <a href="/documentation/GitHub/General_GitHub/create_account/" class="dropdown-item">Create GitHub Account</a>
+</li>
+            
+<li>
+    <a href="/documentation/GitHub/General_GitHub/create_repository/" class="dropdown-item">Create a Respository</a>
+</li>
+    </ul>
+  </li>
+    </ul>
+  </li>
+                                </ul>
                             </li>
                         </ul>
 
@@ -70,6 +109,7 @@
 
         <footer class="col-md-12">
             <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
         </footer>
         <script>
             var base_url = "/",
