@@ -1,4 +1,2 @@
-# Open Source Programs Office
+# Home
 
-- Services
-- Documentation
